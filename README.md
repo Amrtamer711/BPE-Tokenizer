@@ -15,17 +15,17 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 ### 1. Train & Save Tokenizer
 ![image](https://github.com/user-attachments/assets/f876fbbf-736b-4c8d-ae2e-5a78e42e99bf)
 
-## 2. Load Tokenizer
+### 2. Load Tokenizer
 
 ![image](https://github.com/user-attachments/assets/dda7fcc9-3e56-403b-8b91-b2db9c549045)
 
 
-## 3. Tokenize Text
+### 3. Tokenize Text
 
 ![image](https://github.com/user-attachments/assets/348eaa9a-6e29-49ca-a02c-7b0d75ff9184)
 
 
-## 4. Decode Tokenized Text
+### 4. Decode Tokenized Text
 
 ![image](https://github.com/user-attachments/assets/4c7a5037-3868-4918-bc97-d5f536ba6482)
 
