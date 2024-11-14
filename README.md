@@ -5,11 +5,13 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 
 ## Features
 
-- **Trainable Tokenizer**: Train a BPE tokenizer from raw text with a specified vocabulary size.
-- **Encoding and Decoding**: Efficiently tokenize and detokenize text.
-- **Padding and Attention Masks**: Handle batch processing with padding and attention masks.
-- **Save and Load Vocabulary**: Save the vocabulary and merges to files, and reload them later.
-- **UTF-8 Compatibility**: Supports UTF-8 encoding for non-ASCII characters.
+- **Distributed Training (DDP)**: Easily scale training across multiple GPUs using torch.distributed.
+- **LoRA/DoRA Fine-Tuning**: Use PEFT methods to efficiently fine-tune large language models with minimal trainable parameters.
+- **Quantization Support**: Optimize memory usage with BitsAndBytesConfig for 4-bit quantization.
+- **Custom Tokenization**: Tokenize and preprocess datasets for efficient causal language modeling.
+- **Gradient Checkpointing**: Reduce VRAM usage during training.
+- **Evaluation and Inference**: Comprehensive tools for validation, testing, and collecting results with metrics like accuracy and F1 score.
+- **Custom Training and Dataloaders**: Fine-tuned dataloader creation for tokenized and non-tokenized datasets, and an adaptable training loop.
 
 # Usage
 ### 1. Train & Save Tokenizer
