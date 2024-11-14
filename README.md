@@ -31,7 +31,7 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 
 # Implementation
 
-This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a [vocab.txt] file and [merges.txt] file once it trains the vocabulary to store it.
+This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a """vocab.txt""" file and [merges.txt] file once it trains the vocabulary to store it.
 
 # Future Work
 
