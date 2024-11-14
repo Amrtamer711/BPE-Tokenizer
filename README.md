@@ -28,3 +28,11 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 ## 4. Decode Tokenized Text
 
 ![image](https://github.com/user-attachments/assets/4c7a5037-3868-4918-bc97-d5f536ba6482)
+
+# Implementation
+
+This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a [vocab.txt] file and [merges.txt] file once it trains the vocabulary to store it.
+
+# Future Work
+
+Currently working on applying special tokens to the tokenizer
