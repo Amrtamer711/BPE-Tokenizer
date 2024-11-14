@@ -12,7 +12,7 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 - **UTF-8 Compatibility**: Supports UTF-8 encoding for non-ASCII characters.
 
 # Usage
-## 1. Train & Save Tokenizer
+### 1. Train & Save Tokenizer
 ![image](https://github.com/user-attachments/assets/f876fbbf-736b-4c8d-ae2e-5a78e42e99bf)
 
 ## 2. Load Tokenizer
