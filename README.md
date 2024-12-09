@@ -25,21 +25,24 @@ tokenizer.save_vocab(directory="path_to_save_vocab")
 
 ### 2. Load Tokenizer
 
-![image](https://github.com/user-attachments/assets/dda7fcc9-3e56-403b-8b91-b2db9c549045)
-
+```python
+tokenizer = BPE_Tokenizer(directory="path_to_vocab")
+```
 
 ### 3. Tokenize Text
-
-![image](https://github.com/user-attachments/assets/348eaa9a-6e29-49ca-a02c-7b0d75ff9184)
-
+```python
+encoded = tokenizer.encode("This is a test.", max_length=10)
+```
 
 ### 4. Decode Tokenized Text
 
-![image](https://github.com/user-attachments/assets/4c7a5037-3868-4918-bc97-d5f536ba6482)
+```python
+decoded = tokenizer.decode(encoded)
+```
 
 # Implementation
 
-This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a ```vocab.txt``` file and ```merges.txt``` file once it trains the vocabulary to store it.
+This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a ```vocab.txt``` file and ```merges.txt``` file once it trains the vocabulary to store it. It also stores a special tokens mapping in ```special.json```
 
 # Future Work
 
