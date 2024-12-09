@@ -1,5 +1,8 @@
 # BPE Tokenizer
 
+![image](https://github.com/user-attachments/assets/8b1f4ba2-12b3-4ca0-8e54-8ff0dab4be4b)
+
+
 A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text processing. This tokenizer supports creating and saving tokenization vocabularies, encoding and decoding text, and padding sequences for batch processing.
 
 
