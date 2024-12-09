@@ -13,7 +13,15 @@ A custom implementation of a Byte Pair Encoding (BPE) tokenizer for text process
 
 # Usage
 ### 1. Train & Save Tokenizer
-![image](https://github.com/user-attachments/assets/f876fbbf-736b-4c8d-ae2e-5a78e42e99bf)
+```python
+from Tokenizer import BPE_Tokenizer
+
+text = "This is an example sentence to demonstrate the BPE tokenizer."
+vocab_size = 1000
+
+tokenizer = BPE_Tokenizer(text=text, vocab_size=vocab_size)
+tokenizer.save_vocab(directory="path_to_save_vocab")
+```
 
 ### 2. Load Tokenizer
 
