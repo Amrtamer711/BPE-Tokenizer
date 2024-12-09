@@ -45,7 +45,7 @@ decoded = tokenizer.decode(encoded)
 
 # Implementation
 
-This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a ```vocab.txt``` file and ```merges.txt``` file once it trains the vocabulary to store it. It also stores a special tokens mapping in ```special.json```
+This tokenizer implements padding by having the last token of the trained vocabulary be a pad token. The tokenizer creates a ```vocab.txt``` file and ```merges.txt``` file once it trains the vocabulary to store it. It also stores a special tokens mapping in ```special_tokens.json```
 
 # Future Work
 
